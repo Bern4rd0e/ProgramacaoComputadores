@@ -1,0 +1,45 @@
+/*
+ * Operações de inteiros com reais daram resultados de números reais.
+
+    Adição: +
+        Exemplo: 
+            5 + 3 = 8
+    Subtração: - 
+        Exemplo: 
+            8 - 3 = 5
+    Multiplicação: *
+        Exemplo: 
+            3 * 5 = 15
+    Divisão: /
+        Exemplo: 
+            10 / 3 = 3.33333...
+    Divisão de inteiro: //
+        Exemplo: 
+            10 // 3 = 3 
+            O resultado é 3, pois ele não soma o resto da divisão.
+    Resto da divisão: %
+        Exemplo: 
+            10 % 3 = 1
+            O resultado é 1, pois ele fica apenas com o resto da divisão.
+*/
+
+Exemplos de atribuições as variáveis:
+
+a = 25;
+b = 8;
+c = a + b;
+
+print(c)
+// Será impresso a soma da variável a + a variável b.
+
+x = 10;
+x = x + 5;
+print(x)
+// Será impresso a soma da variável x + 5
+
+y = 2;
+x = x * y;
+print(x)
+// Será impresso a multiplicação de x * y
+// OBS1.: O valor de x será o valor que foi dado na ultima expressão de x, ou seja, 15.
+// OBS2.: o comando print(variavel) faz com que imprima na tela o resultado.
