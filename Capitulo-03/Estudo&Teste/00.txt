@@ -1,0 +1,34 @@
+----------------------------------------------------------------------------------------------------
+
+Um programa de computador é uma sequencia de instruções escritas em uma linguagem de programação. 
+Para executar um programa em Python é necessário ter o interpretador Python instalado no computador.
+
+Para a construção de um programa é também necessário que um editor de texto esteja instalado.
+O editor é usado para escrever as instruções do programa e salvar em um arquivo. 
+Em python, usa-se a extensão .py para identificar que o arquivo contém um programa python.
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------CONTÉUDO----------------------------------------------            
+                                    ENTRADA E SAÍDA DE DADOS
+
+É comum que o programa informe ao usuário o resultado da execução de suas
+operações. Chama-se saída de um programa os valores que ele calcula e mostra. Por
+padrão um programa executando no terminal de comandos mostra a saída na tela do
+terminal, em formato texto. O terminal em se que executa o programa é denominado
+de saída padrão do programa. O comando que mostra dados na saída padrão em
+Python é o print().
+
+Além do programa informar dados, é também comum que o programa neces-
+site de dados para realizar suas operações. O conjunto de dados informados para
+o programa é chamado de entrada do programa. O teclado associado ao terminal
+em que programa está sendo executado é denominado a entrada padrão do programa. 
+O comando para ler dados da entrada padrão é o input().
+
+Pode parecer estranho mencionar “o teclado associado ao terminal”, pois normalmente um computador possui um só teclado. 
+Isso se deve a razões históricas, em que a um grande computador poderiam estar conectados fisicamente vários pares de
+tela e teclado; cada um desses pares era denominado de terminal físico. Naquele ambiente, também era possível executar 
+programas a partir de cada um dos diferentes terminais físicos, daí porque o programa tinha a entrada e saida padrão associados
+à tela e o teclado que formavam um terminal físico onde executado. Atualmente os terminais são virtuais, 
+com uma janela de comandos correspondendo à tela da saída padrão e o único teclado existente sendo compartilhado entre essas várias telas.
+
+----------------------------------------------------------------------------------------------------
