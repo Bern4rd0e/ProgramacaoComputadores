@@ -1,0 +1,25 @@
+Inteiro
+1234
+
+Real
+1234,56
+
+String
+"Isto é um texto"
+'Isto também é um texto'
+-> O Python aceita aspas simples e duplas.
+
+----------------------------------------------------------------------------------
+
+Para saber o tipo
+type(valor)
+Converte um para outro
+
+Para inteiro
+• função int()
+
+Para real
+• função float()
+
+Para string
+• função str()
