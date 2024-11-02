@@ -5,4 +5,4 @@ area = pi * (raio * raio)
 
 area_str="{:.4f}".format(area)
 
-print("A=",area_str)
+print("A=",area_str,sep="")

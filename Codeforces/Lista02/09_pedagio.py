@@ -1,7 +1,10 @@
-comprimentoEstrada, distancia = map(int, input().split)
-valorQuilometro, valorPedagio = map(int, input())
+comprimentoEstrada, distancia = map(int, input().split())
+valorQuilometro, valorPedagio = map(int, input().split())
 
-primeiroPedagio = comprimentoEstrada - distancia
+pedagios = comprimentoEstrada // distancia * valorPedagio
 
+valoraKm = comprimentoEstrada * valorQuilometro
 
+valorTotal = valoraKm + pedagios
 
+print(valorTotal)
