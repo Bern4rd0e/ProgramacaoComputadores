@@ -11,8 +11,8 @@ elif(x < 0 and y < 0):
 elif(x > 0 and y < 0):
     print("Q4")
 elif(x == 0 and y != 0):
-    print("Eixo X")
+    print("Eixo Y")
 elif(x != 0 and y == 0):
-    print("Eixo y")
+    print("Eixo X")
 else: 
     print("Erro")
