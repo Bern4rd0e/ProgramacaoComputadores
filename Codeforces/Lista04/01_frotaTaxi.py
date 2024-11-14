@@ -1,8 +1,9 @@
 precoLitroAlcool, precoLitroGasolina, rendimentoAcool, rendimentoGasolina = map(float, input().split())
 
-if(precoLitroAlcool < precoLitroGasolina) and (rendimentoAcool > rendimentoGasolina):
-    print("A")
+alcool = precoLitroAlcool / rendimentoAcool
+gasolina = precoLitroGasolina / rendimentoGasolina
 
+if(alcool < gasolina):
+     print("A")
 else:
-    if(rendimentoGasolina > rendimentoAcool):
-        print("G")
+    print("G")
