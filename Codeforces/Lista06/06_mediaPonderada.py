@@ -6,4 +6,4 @@ def media_ponderada(v1, p1, v2, p2):
 
     return float(mediaPonderada_formatada)
 
-print(media_ponderada(54,9,65,10))
+# print(media_ponderada(54,9,65,10))
