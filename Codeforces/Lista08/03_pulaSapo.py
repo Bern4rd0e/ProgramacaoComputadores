@@ -1,13 +1,11 @@
-pulo, numCano = map(int, input().split())
+pulo, cano = map(int, input().split())
+alturas = list(map(int, input().split()))
 
-
-for i in range(numCano):
-    altCano = int(input())
-
-    cano = 0
-    cano = altCano
-
-if altCano < pulo:
-    print("GAME OVER")
+for i in range(1, cano):
+    # abs retorna o valor positivo ao invés de negativo
+    if abs(alturas[i] - alturas[i-1]) > pulo:
+        print("GAME OVER")
+        break
 else:
     print("YOU WIN")
+
