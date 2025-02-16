@@ -9,6 +9,7 @@ def soma_pares(lista):
     else:
         ultimo = lista[-1]
         if(ultimo % 2 == 0):
+            print(ultimo)
             return 1 + soma_pares(lista[:-1])
         else:
             return 0 + soma_pares(lista[:-1])
